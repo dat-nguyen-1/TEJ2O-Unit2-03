@@ -1,8 +1,13 @@
 /* Copyright (c) 2020 MTHS All rights reserved
  *
- * Created by: XXX
- * Created on: Sep 2020
- * This program ...
+ * Created by: Dat Nguyen
+ * Created on: Feb 2026
+ * This program will show the area and perimeter of a rectangle.
 */
 
-basic.showString('Hello, World!')
+let length: number = 5
+let width: number = 3
+
+basic.showString(`A rectangle has dimensions ${length} cm & ${width} cm`)
+basic.showString(`The perimeter would be: ${2 * (length + width)} cm`)
+basic.showString(`The area would be: ${length * width} cm^2`)
