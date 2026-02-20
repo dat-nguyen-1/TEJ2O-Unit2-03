@@ -1,7 +1,7 @@
 """
 Created by: Dat Nguyen
 Created on: Feb 2026
-This module is a Micro:bit MicroPython program
+This module will show the area and perimeter of a rectangle on the micro:bit.
 """
 
 from microbit import *
