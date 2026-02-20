@@ -6,6 +6,6 @@ This module is a Micro:bit MicroPython program
 
 from microbit import *
 
-display.scroll(f"A rectangle has dimensions 5 cm & 3 cm.")
-display.scroll(f"The perimeter would be: {2 * (5 + 3)} cm.")
-display.scroll(f"The area would be: {5 * 3} cm^2.")
+display.scroll("A rectangle has dimensions 5 cm & 3 cm.")
+display.scroll("The perimeter would be: " + str(2 * (5 + 3)) + " cm.")
+display.scroll("The area would be: " + str(5 * 3) + " cm^2.")
